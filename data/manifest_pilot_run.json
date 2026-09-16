@@ -1,0 +1,34 @@
+{
+  "generated_utc": "2026-09-15T13:38:36.587729+00:00",
+  "config": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "conditions": [
+      "fp16",
+      "nf4"
+    ],
+    "n_prompts": 8,
+    "max_new_tokens": 64,
+    "reps_per_block": 2,
+    "blocks": 2,
+    "idle_settle_s": 6,
+    "power_hz": 10,
+    "seed": 20260915,
+    "out_dir": "/content/energy_lite"
+  },
+  "hardware": {
+    "gpu": "Tesla T4",
+    "driver": "580.82.07",
+    "energy_counter": true,
+    "power_limit_w": 70.0
+  },
+  "software": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.16.1",
+    "bitsandbytes": "0.50.2"
+  },
+  "counts": {
+    "rows": 8,
+    "successful": 8
+  }
+}
