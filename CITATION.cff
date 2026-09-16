@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: >-
+  Replication package: Quantization buys memory, not energy: measured
+  inference energy of 4-bit language models across three model sizes
+message: >-
+  If you use this software or data, please cite the associated
+  manuscript. Update the preferred-citation block once the paper has a
+  DOI.
+type: software
+authors:
+  - family-names: Gaur
+    given-names: Loveleen
+    orcid: "https://orcid.org/0000-0002-0885-1550"
+    affiliation: Alliance University, Bengaluru, India
+    email: gaurloveleen@yahoo.com
+  - family-names: Raman
+    given-names: Ramakrishnan
+    affiliation: Symbiosis International (Deemed University), Pune, India
+    email: raman06@yahoo.com
+repository-code: "https://github.com/REPLACE-ME/quantization-inference-energy"
+license: MIT
+keywords:
+  - quantization
+  - inference energy
+  - energy measurement
+  - green artificial intelligence
+  - model compression
+preferred-citation:
+  type: article
+  title: >-
+    Quantization buys memory, not energy: measured inference energy of
+    4-bit language models across three model sizes
+  authors:
+    - family-names: Gaur
+      given-names: Loveleen
+      orcid: "https://orcid.org/0000-0002-0885-1550"
+    - family-names: Raman
+      given-names: Ramakrishnan
+  journal: Environmental Systems Research
+  year: 2026
+  # doi: TO BE ADDED ON ACCEPTANCE

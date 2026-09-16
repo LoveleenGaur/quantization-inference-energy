@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+cache/
+results/
+*.log
+# Do not commit re-run outputs; the released snapshot in data/ is the record
+raw_runs.csv
+summary_runs.csv
+
+# derived outputs from re-running the analysis
+results_v3_cards.csv
+results_v2_table2.csv
+results_by_size.csv
+all_runs_clean.csv
+figures/*.png.tmp
